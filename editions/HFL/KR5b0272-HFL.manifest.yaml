@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0272/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0272/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清北極天心正法
+  date: '2015-08-29 00:15:33.971962'
+  source:
+    repository: kanripo
+    path: KR5b0272
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0272_000-HFL.yaml, hash: 'sha256:d72ec5143d46733cc9b4e52f79fee390ecfe855f60932b2e941fa6b621815257'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0272_000-HFL.markers.yaml, hash: 'sha256:40d9da79229ef87f57285604ed2a1c7c0969a512d6e317c9fcfb4ae6d1b65255'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0272_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 9560
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b8ffad4867f67ca7520e02462ca15c4d7b1a138e6f5723d7a4e05c67a4057acf
